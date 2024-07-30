@@ -1,0 +1,209 @@
+{
+    "questions": [
+        "What programming languages are you proficient in?",
+        "How many years of experience do you have in software development?",
+        "Are you available for full-time work?",
+        "What is your educational background?",
+        "Do you have experience with Agile methodologies?",
+        "What kind of projects have you worked on?",
+        "Are you willing to relocate?",
+        "What are your salary expectations?",
+        "Do you have any certifications?",
+        "How do you keep your skills up-to-date?"
+    ],
+    "responses": [
+        {
+            "text": "I have been programming in Python and Java for over 5 years. I'm also proficient in JavaScript and C++.",
+            "intent": "skills",
+            "tokens": [
+                "programming",
+                "python",
+                "java",
+                "5",
+                "year",
+                ".",
+                "'m",
+                "also",
+                "proficient",
+                "javascript",
+                "c++",
+                "."
+            ]
+        },
+        {
+            "text": "I have 7 years of experience in software development, including 3 years in a senior role.",
+            "intent": "experience",
+            "tokens": [
+                "7",
+                "year",
+                "experience",
+                "software",
+                "development",
+                ",",
+                "including",
+                "3",
+                "year",
+                "senior",
+                "role",
+                "."
+            ]
+        },
+        {
+            "text": "I am available for full-time positions starting next month.",
+            "intent": "availability",
+            "tokens": [
+                "available",
+                "full-time",
+                "position",
+                "starting",
+                "next",
+                "month",
+                "."
+            ]
+        },
+        {
+            "text": "I hold a Bachelor's degree in Computer Science from XYZ University.",
+            "intent": "education",
+            "tokens": [
+                "hold",
+                "bachelor",
+                "'s",
+                "degree",
+                "computer",
+                "science",
+                "xyz",
+                "university",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I have worked in Scrum teams for the past 4 years and am certified as a Scrum Master.",
+            "intent": "methodology",
+            "tokens": [
+                "yes",
+                ",",
+                "worked",
+                "scrum",
+                "team",
+                "past",
+                "4",
+                "year",
+                "certified",
+                "scrum",
+                "master",
+                "."
+            ]
+        },
+        {
+            "text": "My key skills include data analysis, machine learning, and cloud computing.",
+            "intent": "skills",
+            "tokens": [
+                "key",
+                "skill",
+                "include",
+                "data",
+                "analysis",
+                ",",
+                "machine",
+                "learning",
+                ",",
+                "cloud",
+                "computing",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on various projects, including a large-scale e-commerce platform and a real-time data analytics tool.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "various",
+                "project",
+                ",",
+                "including",
+                "large-scale",
+                "e-commerce",
+                "platform",
+                "real-time",
+                "data",
+                "analytics",
+                "tool",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to relocation for the right opportunity.",
+            "intent": "flexibility",
+            "tokens": [
+                "'m",
+                "open",
+                "relocation",
+                "right",
+                "opportunity",
+                "."
+            ]
+        },
+        {
+            "text": "My salary expectations are in the range of $90,000 to $120,000 per year, depending on the role and benefits package.",
+            "intent": "compensation",
+            "tokens": [
+                "salary",
+                "expectation",
+                "range",
+                "$",
+                "90,000",
+                "$",
+                "120,000",
+                "per",
+                "year",
+                ",",
+                "depending",
+                "role",
+                "benefit",
+                "package",
+                "."
+            ]
+        },
+        {
+            "text": "I hold AWS Certified Solutions Architect and Google Cloud Professional Data Engineer certifications.",
+            "intent": "certifications",
+            "tokens": [
+                "hold",
+                "aws",
+                "certified",
+                "solution",
+                "architect",
+                "google",
+                "cloud",
+                "professional",
+                "data",
+                "engineer",
+                "certification",
+                "."
+            ]
+        },
+        {
+            "text": "I regularly attend tech conferences, participate in online courses, and contribute to open-source projects to keep my skills current.",
+            "intent": "continuous_learning",
+            "tokens": [
+                "regularly",
+                "attend",
+                "tech",
+                "conference",
+                ",",
+                "participate",
+                "online",
+                "course",
+                ",",
+                "contribute",
+                "open-source",
+                "project",
+                "keep",
+                "skill",
+                "current",
+                "."
+            ]
+        }
+    ]
+}
