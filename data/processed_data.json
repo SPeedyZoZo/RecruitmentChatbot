@@ -3,30 +3,290 @@
         "What programming languages are you proficient in?",
         "How many years of experience do you have in software development?",
         "Are you available for full-time work?",
-        "What is your educational background?",
+        "What is your experience with cloud platforms?",
+        "Can you describe your experience with database management?",
+        "What is your experience with CI/CD pipelines?",
+        "What's your preferred development environment?",
+        "What is your experience with test-driven development?",
+        "Can you describe a challenging project you've worked on?",
+        "What is your experience with microservices architecture?",
+        "Have you worked with containerization technologies like Docker?",
+        "What is your experience with front-end frameworks?",
+        "What is your experience with API design and development?",
+        "What is your experience with big data technologies?",
+        "What is your experience with serverless architectures?",
+        "What is your experience with mobile app development?",
+        "What is your experience with DevOps practices?",
+        "Have you ever had to migrate a large-scale application?",
+        "What is your experience with blockchain technology?",
+        "What is your experience with machine learning frameworks?",
+        "What is your experience with IoT development?",
+        "What is your experience with data visualization tools?",
+        "What is your experience with functional programming?",
+        "What is your experience with cloud-native development?",
+        "What is your experience with real-time systems?",
+        "What is your experience with data structures and algorithms?",
+        "What is your experience with web accessibility standards?",
+        "What is your experience with distributed systems?",
+        "What is your experience with agile project management tools?",
+        "What is your experience with cross-platform development?",
+        "What is your experience with code optimization techniques?",
+        "What is your experience with database design and optimization?",
+        "What is your experience with cloud security?",
+        "What is your experience with responsive web design?",
+        "What is your experience with parallel programming?",
+        "What is your experience with design patterns?",
+        "What is your experience with test automation?",
+        "What is your experience with network programming?",
+        "What is your experience with version control branching strategies?",
+        "What is your experience with continuous integration tools?",
+        "What is your experience with cloud cost optimization?",
+        "What is your experience with web performance optimization?",
+        "What is your experience with API security?",
+        "What is your experience with data privacy regulations?",
+        "What is your experience with serverless computing?",
+        "What is your experience with message queues and event-driven architectures?",
+        "What is your experience with static code analysis tools?",
+        "What is your experience with infrastructure automation?",
+        "What is your experience with GraphQL?",
+        "What is your experience with load testing and performance tuning?",
+        "Are you available for remote work?",
+        "Can you work in different time zones?",
+        "Are you open to contract work?",
         "Do you have experience with Agile methodologies?",
-        "What kind of projects have you worked on?",
-        "Are you willing to relocate?",
-        "What are your salary expectations?",
-        "Do you have any certifications?",
-        "How do you keep your skills up-to-date?"
+        "Have you worked in a remote team before?",
+        "Do you have experience mentoring junior developers?",
+        "Have you contributed to any open-source projects?",
+        "Do you have experience with code reviews?",
+        "Have you worked in an international team before?",
+        "Do you have experience with stakeholder management?",
+        "Have you ever led a development team?",
+        "Do you have experience with technical writing or documentation?",
+        "Have you worked on high-traffic websites or applications?",
+        "Do you have experience with A/B testing?",
+        "Have you worked in a startup environment?",
+        "Do you have experience with legacy code maintenance?",
+        "Have you worked on projects requiring regulatory compliance?",
+        "Do you have experience with continuous deployment?",
+        "Have you worked on projects involving third-party integrations?",
+        "Do you have experience with cloud migration projects?",
+        "Have you worked on projects requiring high availability and disaster recovery?",
+        "Do you have experience with microcontrollers or embedded systems?",
+        "Have you worked on projects involving data migration?",
+        "Do you have experience with geo-distributed systems?",
+        "Have you worked on projects involving real-time analytics?",
+        "Do you have experience with cybersecurity practices?",
+        "Have you worked on projects involving natural language processing?",
+        "Do you have experience with scalable system design?",
+        "Have you worked on projects involving image or video processing?",
+        "Do you have experience with progressive web apps?",
+        "Have you worked on projects involving recommendation systems?",
+        "Do you have experience with WebSocket or real-time communication protocols?",
+        "Have you worked on projects involving data warehousing?",
+        "Do you have experience with search engine optimization techniques?",
+        "Have you worked on projects involving content management systems?",
+        "Do you have experience with version control systems other than Git?",
+        "Have you worked on projects involving geospatial data?",
+        "Do you have experience with virtual or augmented reality development?",
+        "Have you worked on projects involving voice user interfaces?",
+        "Do you have experience with chaos engineering practices?",
+        "Are you available for part-time or freelance work?",
+        "Can you work on-site occasionally if needed?",
+        "Are you open to travel for work if required?",
+        "Do you have any upcoming commitments that might affect your availability?",
+        "Are you available for weekend or off-hours work occasionally?",
+        "Can you start immediately if offered a position?",
+        "Are you open to a trial period or probationary employment?",
+        "Are you available for part-time or freelance work?",
+        "Can you work on-site occasionally if needed?",
+        "Are you open to travel for work if required?",
+        "Do you have any upcoming commitments that might affect your availability?",
+        "Are you available for weekend or off-hours work occasionally?",
+        "Can you start immediately if offered a position?",
+        "Are you open to a trial period or probationary employment?",
+        "Are you willing to relocate for the right opportunity?",
+        "Can you work flexible hours if the job requires it?",
+        "Are you available for on-call rotations?",
+        "Can you commit to a long-term project (1 year or more)?",
+        "Are you open to short-term contracts?",
+        "Can you attend in-person meetings or events if necessary?",
+        "Are you available for international assignments?",
+        "Can you work during non-standard business hours to collaborate with global teams?",
+        "Are you open to a hybrid work model (part remote, part in-office)?",
+        "Can you commit to full-time hours (40 hours per week)?",
+        "Are you available for emergency support outside of regular work hours?",
+        "Can you attend training or conferences that may require travel?",
+        "Are you open to working in a different time zone?",
+        "Can you accommodate occasional overtime during busy periods?",
+        "Are you available for video calls and virtual meetings?",
+        "Can you start work earlier or later than standard business hours if needed?",
+        "Are you open to job sharing or split shifts?",
+        "Can you commit to regular status updates or daily stand-ups?",
+        "Are you available for seasonal or temporary work?",
+        "Can you work extended hours to meet project deadlines when necessary?",
+        "Are you open to taking on additional responsibilities or roles if needed?",
+        "Can you participate in after-hours team building or social events?",
+        "Are you available for a second round of interviews or skills assessments?",
+        "Are you available for part-time or freelance work?",
+        "Can you work on-site occasionally if needed?",
+        "Are you open to travel for work if required?",
+        "Do you have any upcoming commitments that might affect your availability?",
+        "Are you available for weekend or off-hours work occasionally?",
+        "Can you start immediately if offered a position?",
+        "Are you open to a trial period or probationary employment?",
+        "Are you willing to relocate for the right opportunity?",
+        "Can you work flexible hours if the job requires it?",
+        "Are you available for on-call rotations?",
+        "Can you commit to a long-term project (1 year or more)?",
+        "Are you open to short-term contracts?",
+        "Can you attend in-person meetings or events if necessary?",
+        "Are you available for international assignments?",
+        "Can you work during non-standard business hours to collaborate with global teams?",
+        "Are you open to a hybrid work model (part remote, part in-office)?",
+        "Can you commit to full-time hours (40 hours per week)?",
+        "Are you available for emergency support outside of regular work hours?",
+        "Can you attend training or conferences that may require travel?",
+        "Are you open to working in a different time zone?",
+        "Can you accommodate occasional overtime during busy periods?",
+        "Are you available for video calls and virtual meetings?",
+        "Can you start work earlier or later than standard business hours if needed?",
+        "Are you open to job sharing or split shifts?",
+        "Can you commit to regular status updates or daily stand-ups?",
+        "Are you available for seasonal or temporary work?",
+        "Can you work extended hours to meet project deadlines when necessary?",
+        "Are you open to taking on additional responsibilities or roles if needed?",
+        "Can you participate in after-hours team building or social events?",
+        "Are you available for a second round of interviews or skills assessments?",
+        "Can you be on-site for the first few weeks of employment for onboarding?",
+        "Are you willing to work on public holidays if the project requires it?",
+        "Can you accommodate last-minute schedule changes?",
+        "Are you available for early morning or late night calls with international clients?",
+        "Can you commit to a minimum number of hours per week for part-time work?",
+        "Are you open to working compressed work weeks (e.g., 4 10-hour days)?",
+        "Can you be available during specific core hours each day?",
+        "Are you willing to take on shift work if required?",
+        "Can you commit to a fixed schedule, or do you need flexibility?",
+        "Are you available for periodic performance reviews and feedback sessions?",
+        "Can you attend company-wide events or retreats that may be out of town?",
+        "Are you open to working extra hours during launch or release periods?",
+        "Can you be available for client meetings outside of regular business hours?",
+        "Are you willing to be on standby during critical system updates or maintenance?",
+        "Can you commit to continuous learning and skill development outside work hours?",
+        "Are you available for cross-training in other roles or departments?",
+        "Can you work during local holidays in other countries for global projects?",
+        "Are you open to taking on rush projects with short turnaround times?",
+        "Can you be flexible with your lunch hours to accommodate team schedules?",
+        "Are you available for mentoring or training new team members?",
+        "Can you commit to regular team brainstorming or strategy sessions?",
+        "Are you open to occasional overnight stays for out-of-town projects?",
+        "Can you be available for impromptu meetings or urgent issues?",
+        "Are you willing to adjust your work hours seasonally if needed?",
+        "Can you commit to a minimum tenure if the company invests in your training?",
+        "Are you available for rotating shifts in a 24/7 operation environment?",
+        "Can you work split shifts if the role requires coverage during peak hours?",
+        "Are you open to being on call during major product releases or updates?",
+        "Can you commit to a certain response time for urgent communications?",
+        "Are you available for periodic team retreats or off-site meetings?",
+        "Can you adjust your schedule for daylight saving time changes in different regions?",
+        "What is your experience with database management systems?",
+        "How familiar are you with cloud computing platforms?",
+        "What front-end frameworks have you worked with?",
+        "Do you have experience with containerization technologies?",
+        "What is your level of expertise in DevOps practices?",
+        "Have you worked with any machine learning or AI frameworks?",
+        "What version control systems are you comfortable using?",
+        "Do you have experience with RESTful API design and development?",
+        "What is your proficiency level in data structures and algorithms?",
+        "Have you worked with any big data technologies?",
+        "What is your experience with agile methodologies?",
+        "Do you have any skills in UI/UX design?",
+        "What testing frameworks have you used?",
+        "Are you familiar with microservices architecture?",
+        "What is your experience with serverless computing?",
+        "Do you have any skills in cybersecurity?",
+        "What is your proficiency in data analysis and visualization?",
+        "Have you worked with any content management systems?",
+        "What is your experience with mobile app development?",
+        "Do you have skills in network programming?",
+        "What is your proficiency in concurrent and parallel programming?",
+        "Have you worked with any IoT technologies?",
+        "What is your experience with blockchain development?",
+        "Do you have skills in game development?",
+        "What is your proficiency in functional programming?",
+        "Have you worked with any AR/VR technologies?",
+        "What is your experience with natural language processing?",
+        "Do you have skills in embedded systems programming?",
+        "What is your proficiency in web scraping and automation?",
+        "Have you worked with any graph databases?",
+        "What is your experience with continuous integration/continuous deployment (CI/CD) tools?",
+        "Do you have skills in technical writing or documentation?",
+        "What is your proficiency in shell scripting?",
+        "Have you worked with any message brokers or queue systems?",
+        "What is your experience with distributed systems?",
+        "Do you have skills in performance optimization?",
+        "What is your proficiency in reactive programming?",
+        "Have you worked with any geographic information systems (GIS)?",
+        "What is your experience with search engine optimization (SEO)?",
+        "What is your experience with quantum computing frameworks?",
+        "How proficient are you in low-level systems programming?",
+        "Have you worked with any computer vision libraries?",
+        "What is your experience with real-time operating systems (RTOS)?",
+        "Do you have skills in reverse engineering or binary analysis?",
+        "What is your proficiency in cryptography and secure communication protocols?",
+        "Have you worked with any robotic process automation (RPA) tools?",
+        "What is your experience with voice user interface (VUI) development?",
+        "Do you have skills in developing for wearable devices?",
+        "What is your proficiency in edge computing technologies?",
+        "Have you worked with any digital signal processing (DSP) techniques?",
+        "What is your experience with bioinformatics algorithms and tools?",
+        "Do you have skills in developing compilers or interpreters?",
+        "What is your proficiency in GPU programming or CUDA?",
+        "Have you worked with any recommendation system algorithms?",
+        "What is your experience with time series analysis and forecasting?",
+        "Do you have skills in developing for smart home technologies?",
+        "What is your proficiency in mesh networking protocols?",
+        "Have you worked with any privacy-preserving computation techniques?",
+        "What is your experience with fuzzy logic systems?",
+        "Do you have skills in developing chatbots or conversational AI?",
+        "What is your proficiency in probabilistic programming?",
+        "Have you worked with any computer-aided design (CAD) software APIs?",
+        "What is your experience with algorithmic trading systems?",
+        "Do you have skills in developing for autonomous vehicles?",
+        "What is your proficiency in developing memory-efficient data structures?",
+        "Have you worked with any music technology or audio processing libraries?",
+        "What is your experience with geospatial analysis tools?",
+        "Do you have skills in developing for e-ink displays?",
+        "What is your proficiency in federated learning techniques?",
+        "Have you worked with any hardware description languages (HDL)?",
+        "What is your experience with optical character recognition (OCR) technologies?",
+        "Do you have skills in developing for brain-computer interfaces?",
+        "What is your proficiency in swarm intelligence algorithms?",
+        "Have you worked with any network simulation tools?",
+        "What is your experience with formal verification methods?",
+        "Do you have skills in developing for satellite systems?",
+        "What is your proficiency in anomaly detection algorithms?",
+        "Have you worked with any computational fluid dynamics (CFD) software?",
+        "What is your experience with quantum cryptography protocols?"
     ],
     "responses": [
         {
-            "text": "I have been programming in Python and Java for over 5 years. I'm also proficient in JavaScript and C++.",
+            "text": "I'm proficient in Python, Java, JavaScript, and C++. I also have experience with Ruby and Go.",
             "intent": "skills",
             "tokens": [
-                "programming",
-                "python",
-                "java",
-                "5",
-                "year",
-                ".",
                 "'m",
-                "also",
                 "proficient",
+                "python",
+                ",",
+                "java",
+                ",",
                 "javascript",
+                ",",
                 "c++",
+                ".",
+                "also",
+                "experience",
+                "ruby",
+                "go",
                 "."
             ]
         },
@@ -62,146 +322,4478 @@
             ]
         },
         {
-            "text": "I hold a Bachelor's degree in Computer Science from XYZ University.",
-            "intent": "education",
+            "text": "I have extensive experience with AWS and Google Cloud Platform, and some familiarity with Azure.",
+            "intent": "skills",
             "tokens": [
-                "hold",
-                "bachelor",
-                "'s",
-                "degree",
-                "computer",
-                "science",
-                "xyz",
-                "university",
+                "extensive",
+                "experience",
+                "aws",
+                "google",
+                "cloud",
+                "platform",
+                ",",
+                "familiarity",
+                "azure",
                 "."
             ]
         },
         {
-            "text": "Yes, I have worked in Scrum teams for the past 4 years and am certified as a Scrum Master.",
-            "intent": "methodology",
+            "text": "I have worked with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB, Cassandra) databases for over 5 years.",
+            "intent": "experience",
+            "tokens": [
+                "worked",
+                "sql",
+                "(",
+                "postgresql",
+                ",",
+                "mysql",
+                ")",
+                "nosql",
+                "(",
+                "mongodb",
+                ",",
+                "cassandra",
+                ")",
+                "database",
+                "5",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have set up and maintained CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for the past 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "set",
+                "maintained",
+                "ci/cd",
+                "pipeline",
+                "using",
+                "jenkins",
+                ",",
+                "gitlab",
+                "ci",
+                ",",
+                "github",
+                "action",
+                "past",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I prefer working in a Unix-based environment using VS Code or IntelliJ IDEA, depending on the project.",
+            "intent": "skills",
+            "tokens": [
+                "prefer",
+                "working",
+                "unix-based",
+                "environment",
+                "using",
+                "v",
+                "code",
+                "intellij",
+                "idea",
+                ",",
+                "depending",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience with TDD, using frameworks like JUnit and pytest.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "tdd",
+                ",",
+                "using",
+                "framework",
+                "like",
+                "junit",
+                "pytest",
+                "."
+            ]
+        },
+        {
+            "text": "I led the development of a real-time fraud detection system that processes millions of transactions daily.",
+            "intent": "experience",
+            "tokens": [
+                "led",
+                "development",
+                "real-time",
+                "fraud",
+                "detection",
+                "system",
+                "process",
+                "million",
+                "transaction",
+                "daily",
+                "."
+            ]
+        },
+        {
+            "text": "I have designed and implemented microservices architectures using Spring Boot and Docker for the past 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "designed",
+                "implemented",
+                "microservices",
+                "architecture",
+                "using",
+                "spring",
+                "boot",
+                "docker",
+                "past",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I have extensive experience with Docker and have worked with Kubernetes for orchestration over the last 3 years.",
+            "intent": "experience",
             "tokens": [
                 "yes",
                 ",",
+                "extensive",
+                "experience",
+                "docker",
                 "worked",
-                "scrum",
-                "team",
-                "past",
-                "4",
+                "kubernetes",
+                "orchestration",
+                "last",
+                "3",
                 "year",
-                "certified",
-                "scrum",
-                "master",
                 "."
             ]
         },
         {
-            "text": "My key skills include data analysis, machine learning, and cloud computing.",
-            "intent": "skills",
-            "tokens": [
-                "key",
-                "skill",
-                "include",
-                "data",
-                "analysis",
-                ",",
-                "machine",
-                "learning",
-                ",",
-                "cloud",
-                "computing",
-                "."
-            ]
-        },
-        {
-            "text": "I've worked on various projects, including a large-scale e-commerce platform and a real-time data analytics tool.",
+            "text": "I've worked with React, Angular, and Vue.js for front-end development for a total of 5 years.",
             "intent": "experience",
             "tokens": [
                 "'ve",
                 "worked",
+                "react",
+                ",",
+                "angular",
+                ",",
+                "vue.js",
+                "front-end",
+                "development",
+                "total",
+                "5",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've designed RESTful APIs and have 2 years of experience with GraphQL.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "designed",
+                "restful",
+                "apis",
+                "2",
+                "year",
+                "experience",
+                "graphql",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with Hadoop and Spark for big data processing and analysis for the past 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "hadoop",
+                "spark",
+                "big",
+                "data",
+                "processing",
+                "analysis",
+                "past",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've built serverless applications using AWS Lambda and Google Cloud Functions over the last 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "built",
+                "serverless",
+                "application",
+                "using",
+                "aws",
+                "lambda",
+                "google",
+                "cloud",
+                "function",
+                "last",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed mobile apps for both iOS (Swift) and Android (Kotlin) for a total of 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "developed",
+                "mobile",
+                "apps",
+                "io",
+                "(",
+                "swift",
+                ")",
+                "android",
+                "(",
+                "kotlin",
+                ")",
+                "total",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've implemented Infrastructure as Code using Terraform and automated deployments with Ansible for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "implemented",
+                "infrastructure",
+                "code",
+                "using",
+                "terraform",
+                "automated",
+                "deployment",
+                "ansible",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I led a project to migrate a monolithic application to a microservices architecture last year.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "led",
+                "project",
+                "migrate",
+                "monolithic",
+                "application",
+                "microservices",
+                "architecture",
+                "last",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on a blockchain-based supply chain tracking system using Hyperledger Fabric for 1 year.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "blockchain-based",
+                "supply",
+                "chain",
+                "tracking",
+                "system",
+                "using",
+                "hyperledger",
+                "fabric",
+                "1",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've used TensorFlow and PyTorch for machine learning projects over the past 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "used",
+                "tensorflow",
+                "pytorch",
+                "machine",
+                "learning",
+                "project",
+                "past",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed firmware for IoT devices and created a cloud-based platform for device management for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "developed",
+                "firmware",
+                "iot",
+                "device",
+                "created",
+                "cloud-based",
+                "platform",
+                "device",
+                "management",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've used tools like Tableau and D3.js for creating interactive data visualizations for the past 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "used",
+                "tool",
+                "like",
+                "tableau",
+                "d3.js",
+                "creating",
+                "interactive",
+                "data",
+                "visualization",
+                "past",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with functional programming in Haskell and have applied FP principles in JavaScript and Python projects for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "experience",
+                "functional",
+                "programming",
+                "haskell",
+                "applied",
+                "fp",
+                "principle",
+                "javascript",
+                "python",
+                "project",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed cloud-native applications using microservices, containers, and managed cloud services for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "developed",
+                "cloud-native",
+                "application",
+                "using",
+                "microservices",
+                ",",
+                "container",
+                ",",
+                "managed",
+                "cloud",
+                "service",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on real-time systems for financial trading and online gaming platforms over the past 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "real-time",
+                "system",
+                "financial",
+                "trading",
+                "online",
+                "gaming",
+                "platform",
+                "past",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have a strong foundation in data structures and algorithms, with 7 years of practical application in various projects.",
+            "intent": "skills",
+            "tokens": [
+                "strong",
+                "foundation",
+                "data",
+                "structure",
+                "algorithm",
+                ",",
+                "7",
+                "year",
+                "practical",
+                "application",
                 "various",
                 "project",
+                "."
+            ]
+        },
+        {
+            "text": "I ensure my web applications meet WCAG 2.1 guidelines and have been doing so for the past 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "ensure",
+                "web",
+                "application",
+                "meet",
+                "wcag",
+                "2.1",
+                "guideline",
+                "past",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience designing and implementing distributed systems using technologies like Apache Kafka and gRPC for 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "experience",
+                "designing",
+                "implementing",
+                "distributed",
+                "system",
+                "using",
+                "technology",
+                "like",
+                "apache",
+                "kafka",
+                "grpc",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient with JIRA and have 5 years of experience with Trello and Asana for agile project management.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "jira",
+                "5",
+                "year",
+                "experience",
+                "trello",
+                "asana",
+                "agile",
+                "project",
+                "management",
+                "."
+            ]
+        },
+        {
+            "text": "I've used React Native and Flutter for cross-platform mobile app development over the last 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "used",
+                "react",
+                "native",
+                "flutter",
+                "cross-platform",
+                "mobile",
+                "app",
+                "development",
+                "last",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I'm experienced in optimizing code performance through profiling, algorithm improvements, and data structure selection for 6 years.",
+            "intent": "experience",
+            "tokens": [
+                "'m",
+                "experienced",
+                "optimizing",
+                "code",
+                "performance",
+                "profiling",
+                ",",
+                "algorithm",
+                "improvement",
+                ",",
+                "data",
+                "structure",
+                "selection",
+                "6",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 5 years of experience with database normalization, indexing strategies, and query optimization techniques.",
+            "intent": "experience",
+            "tokens": [
+                "5",
+                "year",
+                "experience",
+                "database",
+                "normalization",
+                ",",
+                "indexing",
+                "strategy",
+                ",",
+                "query",
+                "optimization",
+                "technique",
+                "."
+            ]
+        },
+        {
+            "text": "I'm familiar with cloud security best practices, including IAM policies, network security groups, and encryption, with 3 years of hands-on experience.",
+            "intent": "experience",
+            "tokens": [
+                "'m",
+                "familiar",
+                "cloud",
+                "security",
+                "best",
+                "practice",
                 ",",
                 "including",
-                "large-scale",
-                "e-commerce",
-                "platform",
-                "real-time",
-                "data",
-                "analytics",
+                "iam",
+                "policy",
+                ",",
+                "network",
+                "security",
+                "group",
+                ",",
+                "encryption",
+                ",",
+                "3",
+                "year",
+                "hands-on",
+                "experience",
+                "."
+            ]
+        },
+        {
+            "text": "I ensure web designs are responsive using CSS media queries, flexbox, and grid layouts, which I've been doing for 5 years.",
+            "intent": "experience",
+            "tokens": [
+                "ensure",
+                "web",
+                "design",
+                "responsive",
+                "using",
+                "cs",
+                "medium",
+                "query",
+                ",",
+                "flexbox",
+                ",",
+                "grid",
+                "layout",
+                ",",
+                "'ve",
+                "5",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience with multi-threading in Java and parallel processing using Python's multiprocessing library.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "multi-threading",
+                "java",
+                "parallel",
+                "processing",
+                "using",
+                "python",
+                "'s",
+                "multiprocessing",
+                "library",
+                "."
+            ]
+        },
+        {
+            "text": "I've been applying various design patterns in my projects for the past 6 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "applying",
+                "various",
+                "design",
+                "pattern",
+                "project",
+                "past",
+                "6",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience with test automation using Selenium, Cypress, and Jest.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "test",
+                "automation",
+                "using",
+                "selenium",
+                ",",
+                "cypress",
+                ",",
+                "jest",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on network programming projects using sockets and protocols like TCP/IP for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "network",
+                "programming",
+                "project",
+                "using",
+                "socket",
+                "protocol",
+                "like",
+                "tcp/ip",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 5 years of experience with Git flow and other branching strategies in version control.",
+            "intent": "experience",
+            "tokens": [
+                "5",
+                "year",
+                "experience",
+                "git",
+                "flow",
+                "branching",
+                "strategy",
+                "version",
+                "control",
+                "."
+            ]
+        },
+        {
+            "text": "I've been using Jenkins, Travis CI, and CircleCI for continuous integration for the past 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "using",
+                "jenkins",
+                ",",
+                "travis",
+                "ci",
+                ",",
+                "circleci",
+                "continuous",
+                "integration",
+                "past",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience optimizing cloud costs across AWS, GCP, and Azure.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "optimizing",
+                "cloud",
+                "cost",
+                "across",
+                "aws",
+                ",",
+                "gcp",
+                ",",
+                "azure",
+                "."
+            ]
+        },
+        {
+            "text": "I've been focusing on web performance optimization techniques like lazy loading and code splitting for 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "focusing",
+                "web",
+                "performance",
+                "optimization",
+                "technique",
+                "like",
+                "lazy",
+                "loading",
+                "code",
+                "splitting",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience implementing OAuth, JWT, and other API security measures.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "implementing",
+                "oauth",
+                ",",
+                "jwt",
+                ",",
+                "api",
+                "security",
+                "measure",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on GDPR and CCPA compliance in software projects for the past 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "gdpr",
+                "ccpa",
+                "compliance",
+                "software",
+                "project",
+                "past",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience building applications with AWS Lambda and Azure Functions.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "building",
+                "application",
+                "aws",
+                "lambda",
+                "azure",
+                "function",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with RabbitMQ and Apache Kafka for building event-driven architectures over the last 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "worked",
+                "rabbitmq",
+                "apache",
+                "kafka",
+                "building",
+                "event-driven",
+                "architecture",
+                "last",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I've been using tools like SonarQube and ESLint for static code analysis for 5 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "using",
+                "tool",
+                "like",
+                "sonarqube",
+                "eslint",
+                "static",
+                "code",
+                "analysis",
+                "5",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience with infrastructure automation using Ansible and Puppet.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "infrastructure",
+                "automation",
+                "using",
+                "ansible",
+                "puppet",
+                "."
+            ]
+        },
+        {
+            "text": "I've been working with GraphQL APIs in production environments for the past 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "'ve",
+                "working",
+                "graphql",
+                "apis",
+                "production",
+                "environment",
+                "past",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 5 years of experience with JMeter and Gatling for load testing and performance tuning.",
+            "intent": "experience",
+            "tokens": [
+                "5",
+                "year",
+                "experience",
+                "jmeter",
+                "gatling",
+                "load",
+                "testing",
+                "performance",
+                "tuning",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available and equipped for remote work.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "equipped",
+                "remote",
+                "work",
+                "."
+            ]
+        },
+        {
+            "text": "I'm flexible and can adjust my working hours to different time zones if needed.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "flexible",
+                "adjust",
+                "working",
+                "hour",
+                "different",
+                "time",
+                "zone",
+                "needed",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to contract work as well as full-time positions.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "contract",
+                "work",
+                "well",
+                "full-time",
+                "position",
+                "."
+            ]
+        },
+        {
+            "text": "I have 5 years of experience working in Scrum and Kanban environments.",
+            "intent": "experience",
+            "tokens": [
+                "5",
+                "year",
+                "experience",
+                "working",
+                "scrum",
+                "kanban",
+                "environment",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've been working remotely for the past 2 years and am comfortable with virtual collaboration tools.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "working",
+                "remotely",
+                "past",
+                "2",
+                "year",
+                "comfortable",
+                "virtual",
+                "collaboration",
                 "tool",
                 "."
             ]
         },
         {
-            "text": "I'm open to relocation for the right opportunity.",
-            "intent": "flexibility",
+            "text": "I have 3 years of experience mentoring junior developers, focusing on code quality and best practices.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "mentoring",
+                "junior",
+                "developer",
+                ",",
+                "focusing",
+                "code",
+                "quality",
+                "best",
+                "practice",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've contributed to several open-source projects over the past 4 years, including a popular Python library for data analysis.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "contributed",
+                "several",
+                "open-source",
+                "project",
+                "past",
+                "4",
+                "year",
+                ",",
+                "including",
+                "popular",
+                "python",
+                "library",
+                "data",
+                "analysis",
+                "."
+            ]
+        },
+        {
+            "text": "I have 5 years of experience conducting code reviews and providing constructive feedback.",
+            "intent": "experience",
+            "tokens": [
+                "5",
+                "year",
+                "experience",
+                "conducting",
+                "code",
+                "review",
+                "providing",
+                "constructive",
+                "feedback",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've collaborated with team members from different countries for 3 years and am comfortable in a multicultural environment.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "collaborated",
+                "team",
+                "member",
+                "different",
+                "country",
+                "3",
+                "year",
+                "comfortable",
+                "multicultural",
+                "environment",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience managing stakeholders, including setting expectations and providing regular updates.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "managing",
+                "stakeholder",
+                ",",
+                "including",
+                "setting",
+                "expectation",
+                "providing",
+                "regular",
+                "update",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've led a development team of 5 engineers for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "led",
+                "development",
+                "team",
+                "5",
+                "engineer",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience writing technical documentation, including API docs and system architecture overviews.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "writing",
+                "technical",
+                "documentation",
+                ",",
+                "including",
+                "api",
+                "doc",
+                "system",
+                "architecture",
+                "overview",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked on applications handling millions of daily active users over the past 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "application",
+                "handling",
+                "million",
+                "daily",
+                "active",
+                "user",
+                "past",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 2 years of experience implementing and analyzing A/B tests for feature optimization.",
+            "intent": "experience",
+            "tokens": [
+                "2",
+                "year",
+                "experience",
+                "implementing",
+                "analyzing",
+                "a/b",
+                "test",
+                "feature",
+                "optimization",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I worked at a fast-paced startup for 3 years, wearing multiple hats and adapting to rapid changes.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "worked",
+                "fast-paced",
+                "startup",
+                "3",
+                "year",
+                ",",
+                "wearing",
+                "multiple",
+                "hat",
+                "adapting",
+                "rapid",
+                "change",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience maintaining and gradually modernizing legacy codebases.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "maintaining",
+                "gradually",
+                "modernizing",
+                "legacy",
+                "codebases",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked on projects requiring HIPAA compliance for 2 years in the healthcare sector.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "project",
+                "requiring",
+                "hipaa",
+                "compliance",
+                "2",
+                "year",
+                "healthcare",
+                "sector",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience setting up and maintaining continuous deployment pipelines.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "setting",
+                "maintaining",
+                "continuous",
+                "deployment",
+                "pipeline",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've integrated various third-party APIs and services into projects over the past 5 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "integrated",
+                "various",
+                "third-party",
+                "apis",
+                "service",
+                "project",
+                "past",
+                "5",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have led 2 major cloud migration projects over the last 3 years, moving on-premises systems to AWS and GCP.",
+            "intent": "experience",
+            "tokens": [
+                "led",
+                "2",
+                "major",
+                "cloud",
+                "migration",
+                "project",
+                "last",
+                "3",
+                "year",
+                ",",
+                "moving",
+                "on-premises",
+                "system",
+                "aws",
+                "gcp",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've designed and implemented high availability systems with 99.99% uptime over the past 4 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "designed",
+                "implemented",
+                "high",
+                "availability",
+                "system",
+                "99.99",
+                "%",
+                "uptime",
+                "past",
+                "4",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 2 years of experience programming Arduino and Raspberry Pi for IoT projects.",
+            "intent": "experience",
+            "tokens": [
+                "2",
+                "year",
+                "experience",
+                "programming",
+                "arduino",
+                "raspberry",
+                "pi",
+                "iot",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've managed complex data migration projects, including ETL processes, for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "managed",
+                "complex",
+                "data",
+                "migration",
+                "project",
+                ",",
+                "including",
+                "etl",
+                "process",
+                ",",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 2 years of experience designing and implementing geo-distributed systems for global applications.",
+            "intent": "experience",
+            "tokens": [
+                "2",
+                "year",
+                "experience",
+                "designing",
+                "implementing",
+                "geo-distributed",
+                "system",
+                "global",
+                "application",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked on real-time analytics dashboards using technologies like Apache Flink for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "real-time",
+                "analytics",
+                "dashboard",
+                "using",
+                "technology",
+                "like",
+                "apache",
+                "flink",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience implementing cybersecurity best practices, including penetration testing and security audits.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "implementing",
+                "cybersecurity",
+                "best",
+                "practice",
+                ",",
+                "including",
+                "penetration",
+                "testing",
+                "security",
+                "audit",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked on NLP projects using libraries like NLTK and spaCy for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "nlp",
+                "project",
+                "using",
+                "library",
+                "like",
+                "nltk",
+                "spacy",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 5 years of experience designing scalable systems that can handle rapid growth in users and data.",
+            "intent": "experience",
+            "tokens": [
+                "5",
+                "year",
+                "experience",
+                "designing",
+                "scalable",
+                "system",
+                "handle",
+                "rapid",
+                "growth",
+                "user",
+                "data",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked on computer vision projects using OpenCV and TensorFlow for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "computer",
+                "vision",
+                "project",
+                "using",
+                "opencv",
+                "tensorflow",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 3 years of experience developing progressive web apps with offline capabilities and push notifications.",
+            "intent": "experience",
+            "tokens": [
+                "3",
+                "year",
+                "experience",
+                "developing",
+                "progressive",
+                "web",
+                "apps",
+                "offline",
+                "capability",
+                "push",
+                "notification",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've built recommendation systems using collaborative filtering and content-based approaches for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "built",
+                "recommendation",
+                "system",
+                "using",
+                "collaborative",
+                "filtering",
+                "content-based",
+                "approach",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 4 years of experience working with WebSocket protocols for real-time bidirectional communication.",
+            "intent": "experience",
+            "tokens": [
+                "4",
+                "year",
+                "experience",
+                "working",
+                "websocket",
+                "protocol",
+                "real-time",
+                "bidirectional",
+                "communication",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've designed and implemented data warehousing solutions using tools like Snowflake and Redshift for 3 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "designed",
+                "implemented",
+                "data",
+                "warehousing",
+                "solution",
+                "using",
+                "tool",
+                "like",
+                "snowflake",
+                "redshift",
+                "3",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 2 years of experience implementing SEO best practices in web development projects.",
+            "intent": "experience",
+            "tokens": [
+                "2",
+                "year",
+                "experience",
+                "implementing",
+                "seo",
+                "best",
+                "practice",
+                "web",
+                "development",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked with various content management systems like WordPress and Drupal for 5 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "various",
+                "content",
+                "management",
+                "system",
+                "like",
+                "wordpress",
+                "drupal",
+                "5",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with Mercurial and Subversion in addition to Git, totaling 7 years of version control experience.",
+            "intent": "experience",
+            "tokens": [
+                "experience",
+                "mercurial",
+                "subversion",
+                "addition",
+                "git",
+                ",",
+                "totaling",
+                "7",
+                "year",
+                "version",
+                "control",
+                "experience",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've worked on GIS projects using libraries like GeoDjango and PostGIS for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "worked",
+                "gi",
+                "project",
+                "using",
+                "library",
+                "like",
+                "geodjango",
+                "postgis",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 1 year of experience developing AR applications using ARKit and ARCore.",
+            "intent": "experience",
+            "tokens": [
+                "1",
+                "year",
+                "experience",
+                "developing",
+                "ar",
+                "application",
+                "using",
+                "arkit",
+                "arcore",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I've integrated voice user interfaces using technologies like Alexa Skills Kit and Google Actions for 2 years.",
+            "intent": "experience",
+            "tokens": [
+                "yes",
+                ",",
+                "'ve",
+                "integrated",
+                "voice",
+                "user",
+                "interface",
+                "using",
+                "technology",
+                "like",
+                "alexa",
+                "skill",
+                "kit",
+                "google",
+                "action",
+                "2",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have 1 year of experience implementing chaos engineering practices to improve system resilience.",
+            "intent": "experience",
+            "tokens": [
+                "1",
+                "year",
+                "experience",
+                "implementing",
+                "chaos",
+                "engineering",
+                "practice",
+                "improve",
+                "system",
+                "resilience",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for part-time or freelance work.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "part-time",
+                "freelance",
+                "work",
+                "."
+            ]
+        },
+        {
+            "text": "I can work on-site occasionally if needed, with proper notice.",
+            "intent": "availability",
+            "tokens": [
+                "work",
+                "on-site",
+                "occasionally",
+                "needed",
+                ",",
+                "proper",
+                "notice",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to travel for work if required, up to 25% of the time.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "travel",
+                "work",
+                "required",
+                ",",
+                "25",
+                "%",
+                "time",
+                "."
+            ]
+        },
+        {
+            "text": "I have no major upcoming commitments that would affect my availability.",
+            "intent": "availability",
+            "tokens": [
+                "major",
+                "upcoming",
+                "commitment",
+                "would",
+                "affect",
+                "availability",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for occasional weekend or off-hours work when necessary.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "occasional",
+                "weekend",
+                "off-hours",
+                "work",
+                "necessary",
+                "."
+            ]
+        },
+        {
+            "text": "I can start a new position within two weeks of an offer.",
+            "intent": "availability",
+            "tokens": [
+                "start",
+                "new",
+                "position",
+                "within",
+                "two",
+                "week",
+                "offer",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to a trial period or probationary employment arrangement.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "trial",
+                "period",
+                "probationary",
+                "employment",
+                "arrangement",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for part-time or freelance work.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "part-time",
+                "freelance",
+                "work",
+                "."
+            ]
+        },
+        {
+            "text": "I can work on-site occasionally if needed, with proper notice.",
+            "intent": "availability",
+            "tokens": [
+                "work",
+                "on-site",
+                "occasionally",
+                "needed",
+                ",",
+                "proper",
+                "notice",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to travel for work if required, up to 25% of the time.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "travel",
+                "work",
+                "required",
+                ",",
+                "25",
+                "%",
+                "time",
+                "."
+            ]
+        },
+        {
+            "text": "I have no major upcoming commitments that would affect my availability.",
+            "intent": "availability",
+            "tokens": [
+                "major",
+                "upcoming",
+                "commitment",
+                "would",
+                "affect",
+                "availability",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for occasional weekend or off-hours work when necessary.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "occasional",
+                "weekend",
+                "off-hours",
+                "work",
+                "necessary",
+                "."
+            ]
+        },
+        {
+            "text": "I can start a new position within two weeks of an offer.",
+            "intent": "availability",
+            "tokens": [
+                "start",
+                "new",
+                "position",
+                "within",
+                "two",
+                "week",
+                "offer",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to a trial period or probationary employment arrangement.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "trial",
+                "period",
+                "probationary",
+                "employment",
+                "arrangement",
+                "."
+            ]
+        },
+        {
+            "text": "I'm willing to relocate for the right opportunity, domestically or internationally.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "willing",
+                "relocate",
+                "right",
+                "opportunity",
+                ",",
+                "domestically",
+                "internationally",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can work flexible hours to accommodate project needs or team schedules.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "work",
+                "flexible",
+                "hour",
+                "accommodate",
+                "project",
+                "need",
+                "team",
+                "schedule",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for on-call rotations and can respond promptly to urgent issues.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "on-call",
+                "rotation",
+                "respond",
+                "promptly",
+                "urgent",
+                "issue",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to long-term projects lasting a year or more.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "long-term",
+                "project",
+                "lasting",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to short-term contracts, ranging from a few months to a year.",
+            "intent": "availability",
             "tokens": [
                 "'m",
                 "open",
-                "relocation",
-                "right",
-                "opportunity",
-                "."
-            ]
-        },
-        {
-            "text": "My salary expectations are in the range of $90,000 to $120,000 per year, depending on the role and benefits package.",
-            "intent": "compensation",
-            "tokens": [
-                "salary",
-                "expectation",
-                "range",
-                "$",
-                "90,000",
-                "$",
-                "120,000",
-                "per",
-                "year",
+                "short-term",
+                "contract",
                 ",",
-                "depending",
-                "role",
-                "benefit",
-                "package",
+                "ranging",
+                "month",
+                "year",
                 "."
             ]
         },
         {
-            "text": "I hold AWS Certified Solutions Architect and Google Cloud Professional Data Engineer certifications.",
-            "intent": "certifications",
+            "text": "Yes, I can attend in-person meetings or events with advance notice.",
+            "intent": "availability",
             "tokens": [
-                "hold",
-                "aws",
-                "certified",
-                "solution",
-                "architect",
-                "google",
-                "cloud",
-                "professional",
-                "data",
-                "engineer",
-                "certification",
-                "."
-            ]
-        },
-        {
-            "text": "I regularly attend tech conferences, participate in online courses, and contribute to open-source projects to keep my skills current.",
-            "intent": "continuous_learning",
-            "tokens": [
-                "regularly",
+                "yes",
+                ",",
                 "attend",
-                "tech",
+                "in-person",
+                "meeting",
+                "event",
+                "advance",
+                "notice",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for international assignments, including extended stays abroad.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "international",
+                "assignment",
+                ",",
+                "including",
+                "extended",
+                "stay",
+                "abroad",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can adjust my schedule to work during non-standard hours for global collaboration.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "adjust",
+                "schedule",
+                "work",
+                "non-standard",
+                "hour",
+                "global",
+                "collaboration",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to a hybrid work model, splitting time between remote and in-office work.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "hybrid",
+                "work",
+                "model",
+                ",",
+                "splitting",
+                "time",
+                "remote",
+                "in-office",
+                "work",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to full-time hours of 40 or more per week as needed.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "full-time",
+                "hour",
+                "40",
+                "per",
+                "week",
+                "needed",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for emergency support outside regular hours, with a quick response time.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "emergency",
+                "support",
+                "outside",
+                "regular",
+                "hour",
+                ",",
+                "quick",
+                "response",
+                "time",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can attend training sessions or conferences, including those requiring travel.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "attend",
+                "training",
+                "session",
                 "conference",
                 ",",
-                "participate",
-                "online",
-                "course",
+                "including",
+                "requiring",
+                "travel",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to working in a different time zone and adjusting my schedule accordingly.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "working",
+                "different",
+                "time",
+                "zone",
+                "adjusting",
+                "schedule",
+                "accordingly",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can accommodate occasional overtime during busy periods or critical project phases.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
                 ",",
-                "contribute",
-                "open-source",
+                "accommodate",
+                "occasional",
+                "overtime",
+                "busy",
+                "period",
+                "critical",
                 "project",
-                "keep",
+                "phase",
+                "."
+            ]
+        },
+        {
+            "text": "I'm fully equipped for and available to participate in video calls and virtual meetings.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "fully",
+                "equipped",
+                "available",
+                "participate",
+                "video",
+                "call",
+                "virtual",
+                "meeting",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can start work earlier or later than standard hours to meet project needs.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "start",
+                "work",
+                "earlier",
+                "later",
+                "standard",
+                "hour",
+                "meet",
+                "project",
+                "need",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to job sharing arrangements or split shifts if the role allows for it.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "job",
+                "sharing",
+                "arrangement",
+                "split",
+                "shift",
+                "role",
+                "allows",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to regular status updates or daily stand-ups as part of the team process.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "regular",
+                "status",
+                "update",
+                "daily",
+                "stand-ups",
+                "part",
+                "team",
+                "process",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for seasonal or temporary work assignments.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "seasonal",
+                "temporary",
+                "work",
+                "assignment",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can work extended hours when necessary to meet critical project deadlines.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "work",
+                "extended",
+                "hour",
+                "necessary",
+                "meet",
+                "critical",
+                "project",
+                "deadline",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to taking on additional responsibilities or roles as needed by the team or project.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "taking",
+                "additional",
+                "responsibility",
+                "role",
+                "needed",
+                "team",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can participate in after-hours team building or social events to foster team cohesion.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "participate",
+                "after-hours",
+                "team",
+                "building",
+                "social",
+                "event",
+                "foster",
+                "team",
+                "cohesion",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for additional rounds of interviews or skills assessments as part of the hiring process.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "additional",
+                "round",
+                "interview",
                 "skill",
-                "current",
+                "assessment",
+                "part",
+                "hiring",
+                "process",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for part-time or freelance work.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "part-time",
+                "freelance",
+                "work",
+                "."
+            ]
+        },
+        {
+            "text": "I can work on-site occasionally if needed, with proper notice.",
+            "intent": "availability",
+            "tokens": [
+                "work",
+                "on-site",
+                "occasionally",
+                "needed",
+                ",",
+                "proper",
+                "notice",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to travel for work if required, up to 25% of the time.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "travel",
+                "work",
+                "required",
+                ",",
+                "25",
+                "%",
+                "time",
+                "."
+            ]
+        },
+        {
+            "text": "I have no major upcoming commitments that would affect my availability.",
+            "intent": "availability",
+            "tokens": [
+                "major",
+                "upcoming",
+                "commitment",
+                "would",
+                "affect",
+                "availability",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for occasional weekend or off-hours work when necessary.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "occasional",
+                "weekend",
+                "off-hours",
+                "work",
+                "necessary",
+                "."
+            ]
+        },
+        {
+            "text": "I can start a new position within two weeks of an offer.",
+            "intent": "availability",
+            "tokens": [
+                "start",
+                "new",
+                "position",
+                "within",
+                "two",
+                "week",
+                "offer",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to a trial period or probationary employment arrangement.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "trial",
+                "period",
+                "probationary",
+                "employment",
+                "arrangement",
+                "."
+            ]
+        },
+        {
+            "text": "I'm willing to relocate for the right opportunity, domestically or internationally.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "willing",
+                "relocate",
+                "right",
+                "opportunity",
+                ",",
+                "domestically",
+                "internationally",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can work flexible hours to accommodate project needs or team schedules.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "work",
+                "flexible",
+                "hour",
+                "accommodate",
+                "project",
+                "need",
+                "team",
+                "schedule",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for on-call rotations and can respond promptly to urgent issues.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "on-call",
+                "rotation",
+                "respond",
+                "promptly",
+                "urgent",
+                "issue",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to long-term projects lasting a year or more.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "long-term",
+                "project",
+                "lasting",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to short-term contracts, ranging from a few months to a year.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "short-term",
+                "contract",
+                ",",
+                "ranging",
+                "month",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can attend in-person meetings or events with advance notice.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "attend",
+                "in-person",
+                "meeting",
+                "event",
+                "advance",
+                "notice",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for international assignments, including extended stays abroad.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "international",
+                "assignment",
+                ",",
+                "including",
+                "extended",
+                "stay",
+                "abroad",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can adjust my schedule to work during non-standard hours for global collaboration.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "adjust",
+                "schedule",
+                "work",
+                "non-standard",
+                "hour",
+                "global",
+                "collaboration",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to a hybrid work model, splitting time between remote and in-office work.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "hybrid",
+                "work",
+                "model",
+                ",",
+                "splitting",
+                "time",
+                "remote",
+                "in-office",
+                "work",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to full-time hours of 40 or more per week as needed.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "full-time",
+                "hour",
+                "40",
+                "per",
+                "week",
+                "needed",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for emergency support outside regular hours, with a quick response time.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "emergency",
+                "support",
+                "outside",
+                "regular",
+                "hour",
+                ",",
+                "quick",
+                "response",
+                "time",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can attend training sessions or conferences, including those requiring travel.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "attend",
+                "training",
+                "session",
+                "conference",
+                ",",
+                "including",
+                "requiring",
+                "travel",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to working in a different time zone and adjusting my schedule accordingly.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "working",
+                "different",
+                "time",
+                "zone",
+                "adjusting",
+                "schedule",
+                "accordingly",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can accommodate occasional overtime during busy periods or critical project phases.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "accommodate",
+                "occasional",
+                "overtime",
+                "busy",
+                "period",
+                "critical",
+                "project",
+                "phase",
+                "."
+            ]
+        },
+        {
+            "text": "I'm fully equipped for and available to participate in video calls and virtual meetings.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "fully",
+                "equipped",
+                "available",
+                "participate",
+                "video",
+                "call",
+                "virtual",
+                "meeting",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can start work earlier or later than standard hours to meet project needs.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "start",
+                "work",
+                "earlier",
+                "later",
+                "standard",
+                "hour",
+                "meet",
+                "project",
+                "need",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to job sharing arrangements or split shifts if the role allows for it.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "job",
+                "sharing",
+                "arrangement",
+                "split",
+                "shift",
+                "role",
+                "allows",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to regular status updates or daily stand-ups as part of the team process.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "regular",
+                "status",
+                "update",
+                "daily",
+                "stand-ups",
+                "part",
+                "team",
+                "process",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for seasonal or temporary work assignments.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "seasonal",
+                "temporary",
+                "work",
+                "assignment",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can work extended hours when necessary to meet critical project deadlines.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "work",
+                "extended",
+                "hour",
+                "necessary",
+                "meet",
+                "critical",
+                "project",
+                "deadline",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to taking on additional responsibilities or roles as needed by the team or project.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "taking",
+                "additional",
+                "responsibility",
+                "role",
+                "needed",
+                "team",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can participate in after-hours team building or social events to foster team cohesion.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "participate",
+                "after-hours",
+                "team",
+                "building",
+                "social",
+                "event",
+                "foster",
+                "team",
+                "cohesion",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for additional rounds of interviews or skills assessments as part of the hiring process.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "additional",
+                "round",
+                "interview",
+                "skill",
+                "assessment",
+                "part",
+                "hiring",
+                "process",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can be on-site for the initial onboarding period to ensure a smooth start.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "on-site",
+                "initial",
+                "onboarding",
+                "period",
+                "ensure",
+                "smooth",
+                "start",
+                "."
+            ]
+        },
+        {
+            "text": "I'm willing to work on public holidays if the project timeline requires it.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "willing",
+                "work",
+                "public",
+                "holiday",
+                "project",
+                "timeline",
+                "requires",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can be flexible with my schedule and accommodate last-minute changes when necessary.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "flexible",
+                "schedule",
+                "accommodate",
+                "last-minute",
+                "change",
+                "necessary",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for early morning or late night calls to collaborate with international clients.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "early",
+                "morning",
+                "late",
+                "night",
+                "call",
+                "collaborate",
+                "international",
+                "client",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can commit to a minimum of 20 hours per week for part-time positions.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "commit",
+                "minimum",
+                "20",
+                "hour",
+                "per",
+                "week",
+                "part-time",
+                "position",
+                "."
+            ]
+        },
+        {
+            "text": "I'm open to working compressed work weeks to maximize productivity and work-life balance.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "open",
+                "working",
+                "compressed",
+                "work",
+                "week",
+                "maximize",
+                "productivity",
+                "work-life",
+                "balance",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can be available during core business hours (e.g., 10 AM to 3 PM) every workday.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "available",
+                "core",
+                "business",
+                "hour",
+                "(",
+                "e.g.",
+                ",",
+                "10",
+                "3",
+                "pm",
+                ")",
+                "every",
+                "workday",
+                "."
+            ]
+        },
+        {
+            "text": "I'm willing to take on shift work if the role requires it, including night shifts.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "willing",
+                "take",
+                "shift",
+                "work",
+                "role",
+                "requires",
+                ",",
+                "including",
+                "night",
+                "shift",
+                "."
+            ]
+        },
+        {
+            "text": "I can commit to a fixed schedule, but I also appreciate some flexibility when possible.",
+            "intent": "availability",
+            "tokens": [
+                "commit",
+                "fixed",
+                "schedule",
+                ",",
+                "also",
+                "appreciate",
+                "flexibility",
+                "possible",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for regular performance reviews and feedback sessions to ensure continuous improvement.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "regular",
+                "performance",
+                "review",
+                "feedback",
+                "session",
+                "ensure",
+                "continuous",
+                "improvement",
+                "."
+            ]
+        },
+        {
+            "text": "I can attend company-wide events or retreats, including those that require out-of-town travel.",
+            "intent": "availability",
+            "tokens": [
+                "attend",
+                "company-wide",
+                "event",
+                "retreat",
+                ",",
+                "including",
+                "require",
+                "out-of-town",
+                "travel",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm willing to work extra hours during critical launch or release periods to ensure success.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "willing",
+                "work",
+                "extra",
+                "hour",
+                "critical",
+                "launch",
+                "release",
+                "period",
+                "ensure",
+                "success",
+                "."
+            ]
+        },
+        {
+            "text": "I'm available for client meetings outside of regular business hours when necessary.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "available",
+                "client",
+                "meeting",
+                "outside",
+                "regular",
+                "business",
+                "hour",
+                "necessary",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I can be on standby during critical system updates or maintenance windows.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "standby",
+                "critical",
+                "system",
+                "update",
+                "maintenance",
+                "window",
+                "."
+            ]
+        },
+        {
+            "text": "I'm committed to continuous learning and can dedicate time outside work hours for skill development.",
+            "intent": "availability",
+            "tokens": [
+                "'m",
+                "committed",
+                "continuous",
+                "learning",
+                "dedicate",
+                "time",
+                "outside",
+                "work",
+                "hour",
+                "skill",
+                "development",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for cross-training opportunities to expand my skill set and support the team.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "cross-training",
+                "opportunity",
+                "expand",
+                "skill",
+                "set",
+                "support",
+                "team",
+                "."
+            ]
+        },
+        {
+            "text": "I can work during local holidays in other countries to support global projects and teams.",
+            "intent": "availability",
+            "tokens": [
+                "work",
+                "local",
+                "holiday",
+                "country",
+                "support",
+                "global",
+                "project",
+                "team",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to taking on rush projects and can adjust my schedule for short turnaround times.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "taking",
+                "rush",
+                "project",
+                "adjust",
+                "schedule",
+                "short",
+                "turnaround",
+                "time",
+                "."
+            ]
+        },
+        {
+            "text": "I can be flexible with my lunch hours to accommodate team schedules and meetings.",
+            "intent": "availability",
+            "tokens": [
+                "flexible",
+                "lunch",
+                "hour",
+                "accommodate",
+                "team",
+                "schedule",
+                "meeting",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available to mentor or train new team members as part of my role.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "mentor",
+                "train",
+                "new",
+                "team",
+                "member",
+                "part",
+                "role",
+                "."
+            ]
+        },
+        {
+            "text": "I can commit to regular team brainstorming or strategy sessions, including after-hours if needed.",
+            "intent": "availability",
+            "tokens": [
+                "commit",
+                "regular",
+                "team",
+                "brainstorming",
+                "strategy",
+                "session",
+                ",",
+                "including",
+                "after-hours",
+                "needed",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to occasional overnight stays for out-of-town projects or client visits.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "occasional",
+                "overnight",
+                "stay",
+                "out-of-town",
+                "project",
+                "client",
+                "visit",
+                "."
+            ]
+        },
+        {
+            "text": "I can be available for impromptu meetings or to address urgent issues as they arise.",
+            "intent": "availability",
+            "tokens": [
+                "available",
+                "impromptu",
+                "meeting",
+                "address",
+                "urgent",
+                "issue",
+                "arise",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm willing to adjust my work hours seasonally if the business needs require it.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "willing",
+                "adjust",
+                "work",
+                "hour",
+                "seasonally",
+                "business",
+                "need",
+                "require",
+                "."
+            ]
+        },
+        {
+            "text": "I can commit to a minimum tenure of two years if the company invests in substantial training for me.",
+            "intent": "availability",
+            "tokens": [
+                "commit",
+                "minimum",
+                "tenure",
+                "two",
+                "year",
+                "company",
+                "invests",
+                "substantial",
+                "training",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for rotating shifts in a 24/7 operation environment if required.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "rotating",
+                "shift",
+                "24/7",
+                "operation",
+                "environment",
+                "required",
+                "."
+            ]
+        },
+        {
+            "text": "I can work split shifts to provide coverage during peak operational hours.",
+            "intent": "availability",
+            "tokens": [
+                "work",
+                "split",
+                "shift",
+                "provide",
+                "coverage",
+                "peak",
+                "operational",
+                "hour",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm open to being on call during major product releases or critical updates.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "open",
+                "call",
+                "major",
+                "product",
+                "release",
+                "critical",
+                "update",
+                "."
+            ]
+        },
+        {
+            "text": "I can commit to a 30-minute response time for urgent communications during on-call hours.",
+            "intent": "availability",
+            "tokens": [
+                "commit",
+                "30-minute",
+                "response",
+                "time",
+                "urgent",
+                "communication",
+                "on-call",
+                "hour",
+                "."
+            ]
+        },
+        {
+            "text": "Yes, I'm available for periodic team retreats or off-site meetings to enhance collaboration.",
+            "intent": "availability",
+            "tokens": [
+                "yes",
+                ",",
+                "'m",
+                "available",
+                "periodic",
+                "team",
+                "retreat",
+                "off-site",
+                "meeting",
+                "enhance",
+                "collaboration",
+                "."
+            ]
+        },
+        {
+            "text": "I can adjust my schedule to accommodate daylight saving time changes in different regions for global projects.",
+            "intent": "availability",
+            "tokens": [
+                "adjust",
+                "schedule",
+                "accommodate",
+                "daylight",
+                "saving",
+                "time",
+                "change",
+                "different",
+                "region",
+                "global",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I have extensive experience with SQL databases like PostgreSQL and MySQL, as well as NoSQL databases like MongoDB and Cassandra.",
+            "intent": "skills",
+            "tokens": [
+                "extensive",
+                "experience",
+                "sql",
+                "database",
+                "like",
+                "postgresql",
+                "mysql",
+                ",",
+                "well",
+                "nosql",
+                "database",
+                "like",
+                "mongodb",
+                "cassandra",
+                "."
+            ]
+        },
+        {
+            "text": "I'm well-versed in AWS and Google Cloud Platform, with some experience in Azure.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "well-versed",
+                "aws",
+                "google",
+                "cloud",
+                "platform",
+                ",",
+                "experience",
+                "azure",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked extensively with React and Vue.js, and have some experience with Angular.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "extensively",
+                "react",
+                "vue.js",
+                ",",
+                "experience",
+                "angular",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient with Docker and have experience orchestrating containers with Kubernetes.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "docker",
+                "experience",
+                "orchestrating",
+                "container",
+                "kubernetes",
+                "."
+            ]
+        },
+        {
+            "text": "I have strong DevOps skills, including experience with CI/CD pipelines, infrastructure as code, and configuration management tools.",
+            "intent": "skills",
+            "tokens": [
+                "strong",
+                "devops",
+                "skill",
+                ",",
+                "including",
+                "experience",
+                "ci/cd",
+                "pipeline",
+                ",",
+                "infrastructure",
+                "code",
+                ",",
+                "configuration",
+                "management",
+                "tool",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with TensorFlow and PyTorch for machine learning projects, and have implemented various AI algorithms.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "tensorflow",
+                "pytorch",
+                "machine",
+                "learning",
+                "project",
+                ",",
+                "implemented",
+                "various",
+                "ai",
+                "algorithm",
+                "."
+            ]
+        },
+        {
+            "text": "I'm very comfortable with Git and have also used Mercurial and SVN in past projects.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "comfortable",
+                "git",
+                "also",
+                "used",
+                "mercurial",
+                "svn",
+                "past",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I have extensive experience designing and developing RESTful APIs, following best practices for scalability and security.",
+            "intent": "skills",
+            "tokens": [
+                "extensive",
+                "experience",
+                "designing",
+                "developing",
+                "restful",
+                "apis",
+                ",",
+                "following",
+                "best",
+                "practice",
+                "scalability",
+                "security",
+                "."
+            ]
+        },
+        {
+            "text": "I have a strong foundation in data structures and algorithms, regularly solving complex problems and optimizing code.",
+            "intent": "skills",
+            "tokens": [
+                "strong",
+                "foundation",
+                "data",
+                "structure",
+                "algorithm",
+                ",",
+                "regularly",
+                "solving",
+                "complex",
+                "problem",
+                "optimizing",
+                "code",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with Hadoop and Spark ecosystems for processing and analyzing large datasets.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "hadoop",
+                "spark",
+                "ecosystem",
+                "processing",
+                "analyzing",
+                "large",
+                "datasets",
+                "."
+            ]
+        },
+        {
+            "text": "I'm well-versed in Scrum and Kanban methodologies, having worked in agile environments for several years.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "well-versed",
+                "scrum",
+                "kanban",
+                "methodology",
+                ",",
+                "worked",
+                "agile",
+                "environment",
+                "several",
+                "year",
+                "."
+            ]
+        },
+        {
+            "text": "I have basic UI/UX design skills, including wireframing and prototyping using tools like Figma.",
+            "intent": "skills",
+            "tokens": [
+                "basic",
+                "ui/ux",
+                "design",
+                "skill",
+                ",",
+                "including",
+                "wireframing",
+                "prototyping",
+                "using",
+                "tool",
+                "like",
+                "figma",
+                "."
+            ]
+        },
+        {
+            "text": "I'm experienced with Jest and Mocha for JavaScript testing, and pytest for Python.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "experienced",
+                "jest",
+                "mocha",
+                "javascript",
+                "testing",
+                ",",
+                "pytest",
+                "python",
+                "."
+            ]
+        },
+        {
+            "text": "I have designed and implemented microservices architectures, focusing on scalability and maintainability.",
+            "intent": "skills",
+            "tokens": [
+                "designed",
+                "implemented",
+                "microservices",
+                "architecture",
+                ",",
+                "focusing",
+                "scalability",
+                "maintainability",
+                "."
+            ]
+        },
+        {
+            "text": "I've built serverless applications using AWS Lambda and have experience with event-driven architectures.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "built",
+                "serverless",
+                "application",
+                "using",
+                "aws",
+                "lambda",
+                "experience",
+                "event-driven",
+                "architecture",
+                "."
+            ]
+        },
+        {
+            "text": "I have a good understanding of cybersecurity principles and have implemented secure coding practices in my projects.",
+            "intent": "skills",
+            "tokens": [
+                "good",
+                "understanding",
+                "cybersecurity",
+                "principle",
+                "implemented",
+                "secure",
+                "coding",
+                "practice",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient in data analysis using pandas and numpy, and data visualization with matplotlib and D3.js.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "data",
+                "analysis",
+                "using",
+                "panda",
+                "numpy",
+                ",",
+                "data",
+                "visualization",
+                "matplotlib",
+                "d3.js",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with WordPress and Drupal, customizing themes and developing plugins.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "wordpress",
+                "drupal",
+                ",",
+                "customizing",
+                "theme",
+                "developing",
+                "plugins",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience developing mobile apps using React Native for cross-platform development.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "developing",
+                "mobile",
+                "apps",
+                "using",
+                "react",
+                "native",
+                "cross-platform",
+                "development",
+                "."
+            ]
+        },
+        {
+            "text": "I'm skilled in socket programming and have implemented various network protocols.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "skilled",
+                "socket",
+                "programming",
+                "implemented",
+                "various",
+                "network",
+                "protocol",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with multi-threading in Java and parallel processing in Python.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "multi-threading",
+                "java",
+                "parallel",
+                "processing",
+                "python",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on IoT projects using Arduino and Raspberry Pi, integrating sensors and actuators.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "iot",
+                "project",
+                "using",
+                "arduino",
+                "raspberry",
+                "pi",
+                ",",
+                "integrating",
+                "sensor",
+                "actuator",
+                "."
+            ]
+        },
+        {
+            "text": "I have basic experience with Ethereum smart contract development using Solidity.",
+            "intent": "skills",
+            "tokens": [
+                "basic",
+                "experience",
+                "ethereum",
+                "smart",
+                "contract",
+                "development",
+                "using",
+                "solidity",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed small games using Unity and have a good understanding of game development principles.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "developed",
+                "small",
+                "game",
+                "using",
+                "unity",
+                "good",
+                "understanding",
+                "game",
+                "development",
+                "principle",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient in functional programming concepts and have applied them in JavaScript and Scala projects.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "functional",
+                "programming",
+                "concept",
+                "applied",
+                "javascript",
+                "scala",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I have some experience with AR development using ARKit for iOS.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "ar",
+                "development",
+                "using",
+                "arkit",
+                "io",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on NLP projects using NLTK and spaCy, implementing text classification and named entity recognition.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "nlp",
+                "project",
+                "using",
+                "nltk",
+                "spacy",
+                ",",
+                "implementing",
+                "text",
+                "classification",
+                "named",
+                "entity",
+                "recognition",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience programming for embedded systems using C and assembly language.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "programming",
+                "embedded",
+                "system",
+                "using",
+                "c",
+                "assembly",
+                "language",
+                "."
+            ]
+        },
+        {
+            "text": "I'm skilled in web scraping using Beautiful Soup and Selenium, and have automated various web tasks.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "skilled",
+                "web",
+                "scraping",
+                "using",
+                "beautiful",
+                "soup",
+                "selenium",
+                ",",
+                "automated",
+                "various",
+                "web",
+                "task",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with Neo4j for graph database applications, particularly for social network analysis.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "neo4j",
+                "graph",
+                "database",
+                "application",
+                ",",
+                "particularly",
+                "social",
+                "network",
+                "analysis",
+                "."
+            ]
+        },
+        {
+            "text": "I'm experienced with Jenkins and GitLab CI for setting up and maintaining CI/CD pipelines.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "experienced",
+                "jenkins",
+                "gitlab",
+                "ci",
+                "setting",
+                "maintaining",
+                "ci/cd",
+                "pipeline",
+                "."
+            ]
+        },
+        {
+            "text": "I have strong technical writing skills, having written API documentation and user guides for several projects.",
+            "intent": "skills",
+            "tokens": [
+                "strong",
+                "technical",
+                "writing",
+                "skill",
+                ",",
+                "written",
+                "api",
+                "documentation",
+                "user",
+                "guide",
+                "several",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient in bash scripting and have automated various system administration tasks.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "bash",
+                "scripting",
+                "automated",
+                "various",
+                "system",
+                "administration",
+                "task",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with RabbitMQ and Apache Kafka for building scalable, event-driven systems.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "rabbitmq",
+                "apache",
+                "kafka",
+                "building",
+                "scalable",
+                ",",
+                "event-driven",
+                "system",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience designing and implementing distributed systems, focusing on consistency and fault tolerance.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "designing",
+                "implementing",
+                "distributed",
+                "system",
+                ",",
+                "focusing",
+                "consistency",
+                "fault",
+                "tolerance",
+                "."
+            ]
+        },
+        {
+            "text": "I'm skilled in performance optimization techniques, including profiling, caching, and query optimization.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "skilled",
+                "performance",
+                "optimization",
+                "technique",
+                ",",
+                "including",
+                "profiling",
+                ",",
+                "caching",
+                ",",
+                "query",
+                "optimization",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with reactive programming using RxJS in JavaScript projects.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "reactive",
+                "programming",
+                "using",
+                "rxjs",
+                "javascript",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with QGIS and PostGIS for spatial data analysis and visualization.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "qgis",
+                "postgis",
+                "spatial",
+                "data",
+                "analysis",
+                "visualization",
+                "."
+            ]
+        },
+        {
+            "text": "I have implemented various SEO best practices in web development projects, improving search engine rankings.",
+            "intent": "skills",
+            "tokens": [
+                "implemented",
+                "various",
+                "seo",
+                "best",
+                "practice",
+                "web",
+                "development",
+                "project",
+                ",",
+                "improving",
+                "search",
+                "engine",
+                "ranking",
+                "."
+            ]
+        },
+        {
+            "text": "I have basic experience with Qiskit for quantum circuit simulation.",
+            "intent": "skills",
+            "tokens": [
+                "basic",
+                "experience",
+                "qiskit",
+                "quantum",
+                "circuit",
+                "simulation",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient in C and assembly language for systems programming.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "c",
+                "assembly",
+                "language",
+                "system",
+                "programming",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked extensively with OpenCV for image processing and object detection.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "extensively",
+                "opencv",
+                "image",
+                "processing",
+                "object",
+                "detection",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience developing for FreeRTOS in embedded systems projects.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "developing",
+                "freertos",
+                "embedded",
+                "system",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I've used IDA Pro and Ghidra for reverse engineering and vulnerability research.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "used",
+                "ida",
+                "pro",
+                "ghidra",
+                "reverse",
+                "engineering",
+                "vulnerability",
+                "research",
+                "."
+            ]
+        },
+        {
+            "text": "I'm knowledgeable about symmetric and asymmetric encryption algorithms and have implemented secure communication protocols.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "knowledgeable",
+                "symmetric",
+                "asymmetric",
+                "encryption",
+                "algorithm",
+                "implemented",
+                "secure",
+                "communication",
+                "protocol",
+                "."
+            ]
+        },
+        {
+            "text": "I've used UiPath for automating repetitive business processes.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "used",
+                "uipath",
+                "automating",
+                "repetitive",
+                "business",
+                "process",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience developing Alexa skills and Google Actions for voice interfaces.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "developing",
+                "alexa",
+                "skill",
+                "google",
+                "action",
+                "voice",
+                "interface",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed applications for Apple Watch using WatchKit.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "developed",
+                "application",
+                "apple",
+                "watch",
+                "using",
+                "watchkit",
+                "."
+            ]
+        },
+        {
+            "text": "I'm familiar with AWS Greengrass for edge computing implementations.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "familiar",
+                "aws",
+                "greengrass",
+                "edge",
+                "computing",
+                "implementation",
+                "."
+            ]
+        },
+        {
+            "text": "I've applied various DSP techniques using Python's scipy.signal module.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "applied",
+                "various",
+                "dsp",
+                "technique",
+                "using",
+                "python",
+                "'s",
+                "scipy.signal",
+                "module",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with sequence alignment algorithms and have used tools like BLAST.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "sequence",
+                "alignment",
+                "algorithm",
+                "used",
+                "tool",
+                "like",
+                "blast",
+                "."
+            ]
+        },
+        {
+            "text": "I've built a simple interpreter for a domain-specific language using ANTLR.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "built",
+                "simple",
+                "interpreter",
+                "domain-specific",
+                "language",
+                "using",
+                "antlr",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient in CUDA programming for parallel computing on NVIDIA GPUs.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "cuda",
+                "programming",
+                "parallel",
+                "computing",
+                "nvidia",
+                "gpus",
+                "."
+            ]
+        },
+        {
+            "text": "I've implemented collaborative filtering and content-based recommendation algorithms.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "implemented",
+                "collaborative",
+                "filtering",
+                "content-based",
+                "recommendation",
+                "algorithm",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with ARIMA models and Prophet for time series forecasting.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "arima",
+                "model",
+                "prophet",
+                "time",
+                "series",
+                "forecasting",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed integrations for smart home devices using HomeKit and Google Home.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "developed",
+                "integration",
+                "smart",
+                "home",
+                "device",
+                "using",
+                "homekit",
+                "google",
+                "home",
+                "."
+            ]
+        },
+        {
+            "text": "I'm familiar with protocols like Zigbee and Thread for mesh networking in IoT.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "familiar",
+                "protocol",
+                "like",
+                "zigbee",
+                "thread",
+                "mesh",
+                "networking",
+                "iot",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with homomorphic encryption for privacy-preserving computations.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "homomorphic",
+                "encryption",
+                "privacy-preserving",
+                "computation",
+                "."
+            ]
+        },
+        {
+            "text": "I've implemented fuzzy logic controllers for industrial automation systems.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "implemented",
+                "fuzzy",
+                "logic",
+                "controller",
+                "industrial",
+                "automation",
+                "system",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed chatbots using Rasa and integrated them with messaging platforms.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "developed",
+                "chatbots",
+                "using",
+                "rasa",
+                "integrated",
+                "messaging",
+                "platform",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with PyMC3 for probabilistic programming and Bayesian inference.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "pymc3",
+                "probabilistic",
+                "programming",
+                "bayesian",
+                "inference",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked with AutoCAD's .NET API to automate drawing tasks.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "autocad",
+                "'s",
+                ".net",
+                "api",
+                "automate",
+                "drawing",
+                "task",
+                "."
+            ]
+        },
+        {
+            "text": "I've developed backtesting frameworks for algorithmic trading strategies.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "developed",
+                "backtesting",
+                "framework",
+                "algorithmic",
+                "trading",
+                "strategy",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience with ROS (Robot Operating System) for autonomous vehicle prototyping.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "ro",
+                "(",
+                "robot",
+                "operating",
+                "system",
+                ")",
+                "autonomous",
+                "vehicle",
+                "prototyping",
+                "."
+            ]
+        },
+        {
+            "text": "I've implemented custom memory-efficient data structures like sparse matrices.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "implemented",
+                "custom",
+                "memory-efficient",
+                "data",
+                "structure",
+                "like",
+                "sparse",
+                "matrix",
+                "."
+            ]
+        },
+        {
+            "text": "I've used librosa for music information retrieval and audio feature extraction.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "used",
+                "librosa",
+                "music",
+                "information",
+                "retrieval",
+                "audio",
+                "feature",
+                "extraction",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient with GeoPandas and Shapely for geospatial data analysis and manipulation.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "geopandas",
+                "shapely",
+                "geospatial",
+                "data",
+                "analysis",
+                "manipulation",
+                "."
+            ]
+        },
+        {
+            "text": "I've optimized UI rendering for e-ink displays in embedded Linux systems.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "optimized",
+                "ui",
+                "rendering",
+                "e-ink",
+                "display",
+                "embedded",
+                "linux",
+                "system",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience implementing federated learning using TensorFlow Federated.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "implementing",
+                "federated",
+                "learning",
+                "using",
+                "tensorflow",
+                "federated",
+                "."
+            ]
+        },
+        {
+            "text": "I've used VHDL for FPGA programming in digital circuit design projects.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "used",
+                "vhdl",
+                "fpga",
+                "programming",
+                "digital",
+                "circuit",
+                "design",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I've integrated Tesseract OCR into document processing pipelines.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "integrated",
+                "tesseract",
+                "ocr",
+                "document",
+                "processing",
+                "pipeline",
+                "."
+            ]
+        },
+        {
+            "text": "I have basic experience with OpenBCI for EEG signal processing and visualization.",
+            "intent": "skills",
+            "tokens": [
+                "basic",
+                "experience",
+                "openbci",
+                "eeg",
+                "signal",
+                "processing",
+                "visualization",
+                "."
+            ]
+        },
+        {
+            "text": "I've implemented particle swarm optimization algorithms for complex optimization problems.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "implemented",
+                "particle",
+                "swarm",
+                "optimization",
+                "algorithm",
+                "complex",
+                "optimization",
+                "problem",
+                "."
+            ]
+        },
+        {
+            "text": "I'm familiar with ns-3 for network simulation and protocol evaluation.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "familiar",
+                "ns-3",
+                "network",
+                "simulation",
+                "protocol",
+                "evaluation",
+                "."
+            ]
+        },
+        {
+            "text": "I have experience using TLA+ for specifying and verifying concurrent systems.",
+            "intent": "skills",
+            "tokens": [
+                "experience",
+                "using",
+                "tla+",
+                "specifying",
+                "verifying",
+                "concurrent",
+                "system",
+                "."
+            ]
+        },
+        {
+            "text": "I've worked on ground station software for CubeSat projects using GNU Radio.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "worked",
+                "ground",
+                "station",
+                "software",
+                "cubesat",
+                "project",
+                "using",
+                "gnu",
+                "radio",
+                "."
+            ]
+        },
+        {
+            "text": "I'm proficient in implementing various anomaly detection techniques, including isolation forests and autoencoders.",
+            "intent": "skills",
+            "tokens": [
+                "'m",
+                "proficient",
+                "implementing",
+                "various",
+                "anomaly",
+                "detection",
+                "technique",
+                ",",
+                "including",
+                "isolation",
+                "forest",
+                "autoencoders",
+                "."
+            ]
+        },
+        {
+            "text": "I've used OpenFOAM for simple CFD simulations in engineering projects.",
+            "intent": "skills",
+            "tokens": [
+                "'ve",
+                "used",
+                "openfoam",
+                "simple",
+                "cfd",
+                "simulation",
+                "engineering",
+                "project",
+                "."
+            ]
+        },
+        {
+            "text": "I have theoretical knowledge of BB84 and other quantum key distribution protocols.",
+            "intent": "skills",
+            "tokens": [
+                "theoretical",
+                "knowledge",
+                "bb84",
+                "quantum",
+                "key",
+                "distribution",
+                "protocol",
                 "."
             ]
         }
