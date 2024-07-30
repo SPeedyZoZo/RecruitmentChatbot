@@ -38,6 +38,7 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model accuracy: {accuracy * 100:.2f}%")
 
-# Save the trained model
+# Save the trained model and vectorizer
 os.makedirs('models', exist_ok=True)
+joblib.dump(vectorizer, 'models/tfidf_vectorizer.joblib')
 joblib.dump(model, 'models/intent_recognition_model.joblib')
