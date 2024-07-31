@@ -44,3 +44,9 @@ os.makedirs('models', exist_ok=True)
 model.save('models/tf_intent_recognition_model.keras')
 joblib.dump(vectorizer, 'models/tfidf_vectorizer.joblib')
 joblib.dump(label_encoder, 'models/label_encoder.joblib')
+
+from sklearn.metrics import classification_report
+
+y_true = y_test  # True labels
+y_pred = model.predict(X_test).argmax(axis=1)  # Predicted labels
+print(classification_report(y_true, y_pred, target_names=label_encoder.classes_))

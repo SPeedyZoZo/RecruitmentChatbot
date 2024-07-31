@@ -10,7 +10,7 @@ class Query(BaseModel):
 app = FastAPI()
 
 # Load the trained TensorFlow model, vectorizer, and label encoder
-model = tf.keras.models.load_model('models/tf_intent_recognition_model.h5')
+model = tf.keras.models.load_model('models/tf_intent_recognition_model.keras')  # Use .keras extension as per the save method
 vectorizer = joblib.load('models/tfidf_vectorizer.joblib')
 label_encoder = joblib.load('models/label_encoder.joblib')
 
@@ -43,8 +43,9 @@ def predict_intent(query: Query):
         # Predict the intent
         predictions = model.predict(X.toarray())
         predicted_intent = label_encoder.inverse_transform([np.argmax(predictions)])[0]
+        probabilities = {label_encoder.classes_[i]: float(predictions[0][i]) for i in range(len(label_encoder.classes_))}
         # Score the response
         score = score_response(query.query)
-        return {"intent": predicted_intent, "score": score}
+        return {"intent": predicted_intent, "score": score, "probabilities": probabilities}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
