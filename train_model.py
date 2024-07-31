@@ -1,9 +1,8 @@
 import json
-from collections import Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import LabelEncoder
+import tensorflow as tf
 import joblib
 import os
 
@@ -15,30 +14,33 @@ with open('data/processed_data.json', 'r') as f:
 texts = [item['text'] for item in data['responses']]
 intents = [item['intent'] for item in data['responses']]
 
-# Check class distribution
-intent_counts = Counter(intents)
-print(f"Intent counts: {intent_counts}")
+# Encode labels as integers
+label_encoder = LabelEncoder()
+y = label_encoder.fit_transform(intents)
 
-# Initialize the TF-IDF vectorizer
+# Initialize the TF-IDF vectorizer and transform the texts
 vectorizer = TfidfVectorizer()
-
-# Fit and transform the texts to feature vectors
 X = vectorizer.fit_transform(texts)
-y = intents
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Initialize and train the Logistic Regression model
-model = LogisticRegression(max_iter=1000)
-model.fit(X_train, y_train)
+# Define the TensorFlow model
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(512, activation='relu', input_shape=(X.shape[1],)),
+    tf.keras.layers.Dropout(0.5),
+    tf.keras.layers.Dense(len(label_encoder.classes_), activation='softmax')
+])
 
-# Evaluate the model
-y_pred = model.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
-print(f"Model accuracy: {accuracy * 100:.2f}%")
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
 
-# Save the trained model and vectorizer
+# Train the model
+model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
+
+# Save the model, vectorizer, and label encoder
 os.makedirs('models', exist_ok=True)
+model.save('models/tf_intent_recognition_model.keras')
 joblib.dump(vectorizer, 'models/tfidf_vectorizer.joblib')
-joblib.dump(model, 'models/intent_recognition_model.joblib')
+joblib.dump(label_encoder, 'models/label_encoder.joblib')

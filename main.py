@@ -1,37 +1,39 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+import tensorflow as tf
 import joblib
-import os
-import json
+import numpy as np
 
 class Query(BaseModel):
     query: str
 
 app = FastAPI()
 
-# Load the trained model and vectorizer
-model = joblib.load('models/intent_recognition_model.joblib')
+# Load the trained TensorFlow model, vectorizer, and label encoder
+model = tf.keras.models.load_model('models/tf_intent_recognition_model.h5')
 vectorizer = joblib.load('models/tfidf_vectorizer.joblib')
+label_encoder = joblib.load('models/label_encoder.joblib')
 
 def score_response(response: str) -> int:
-    # Simple scoring based on length and presence of specific keywords
     score = 0
     keywords = ["Python", "Java", "JavaScript", "experience", "project", "cloud"]
+    word_count = {}
+    words = response.lower().split()
+    
+    for word in words:
+        if word in word_count:
+            word_count[word] += 1
+        else:
+            word_count[word] = 1
+    
     for keyword in keywords:
-        if keyword.lower() in response.lower():
-            score += 10
-    # Additional points for response length (demonstrating thoroughness)
-    score += len(response.split()) / 2
-    return min(score, 100)  # Limit score to a maximum of 100
+        if keyword.lower() in word_count:
+            score += min(word_count[keyword.lower()], 2) * 10
+            if word_count[keyword.lower()] > 2:
+                score -= (word_count[keyword.lower()] - 2) * 5
 
-
-# Function to save candidate data
-def save_candidate_data(candidate_data: dict):
-    os.makedirs('data', exist_ok=True)
-    with open('data/candidate_data.json', 'a') as f:
-        json.dump(candidate_data, f)
-        f.write('\n')
-
+    score += len(words) / 2
+    return max(min(score, 100), 0)
 
 @app.post("/predict")
 def predict_intent(query: Query):
@@ -39,12 +41,10 @@ def predict_intent(query: Query):
         # Preprocess and vectorize the input query
         X = vectorizer.transform([query.query])
         # Predict the intent
-        intent = model.predict(X)[0]
+        predictions = model.predict(X.toarray())
+        predicted_intent = label_encoder.inverse_transform([np.argmax(predictions)])[0]
         # Score the response
         score = score_response(query.query)
-        # Save candidate data
-        candidate_data = {"query": query.query, "intent": intent, "score": score}
-        save_candidate_data(candidate_data)
-        return {"intent": intent, "score": score}
+        return {"intent": predicted_intent, "score": score}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
